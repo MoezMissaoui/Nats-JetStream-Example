@@ -21,7 +21,8 @@ class NatsListenCommand extends Command
     protected function configure(): void
     {
         $this->setName('nats:listen')
-            ->setDescription('Runs a persistent NATS topic listener.');
+            ->setDescription('Runs a persistent NATS topic listener.')
+            ->setAliases(['nats:listener']);
     }
 
     // This is where your listener.php logic goes
