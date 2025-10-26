@@ -1,0 +1,24 @@
+# Dependencies
+/vendor/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build/Runtime artifacts
+var/
+.cache/
+coverage/
+
+# Logs & temp
+*.log
+*.tmp
+
+# IDE/editor settings
+/.idea/
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
